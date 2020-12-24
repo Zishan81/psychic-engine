@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features=".",
 				monochrome=true,
 				glue="StepDefinition",
-				tags="@Task",
+				tags="@smokeTest",
 				dryRun=false,
 				plugin= {"pretty",
 				"html:target/cucumber-reports",
